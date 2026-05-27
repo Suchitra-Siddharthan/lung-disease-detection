@@ -1,0 +1,18 @@
+@"
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+model/
+*.pkl
+
+# OS/Editor
+.DS_Store
+.vscode/
+
+"@ | Out-File -Encoding utf8 .gitignore
